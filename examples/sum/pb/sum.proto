@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package sum;
-option go_package="./examples/sum/pb";
+option go_package="./pb";
 
 message Number {
     int32 Num1 = 1;
