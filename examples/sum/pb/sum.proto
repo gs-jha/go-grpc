@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package sum;
+option go_package="./examples/sum/pb";
+
+message Number {
+    int32 Num1 = 1;
+    int32 Num2 = 2;
+}
+
+message SumReq {
+    Number Nums = 1;
+}
+
+message SumResp {
+    int32 Result = 1;
+}
+
+service SumService {
+    rpc Sum (SumReq) returns (SumResp);
+}
