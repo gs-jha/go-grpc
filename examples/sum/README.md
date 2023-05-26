@@ -7,3 +7,7 @@ This is simple example like hello world to sum 2 numbers from client and check r
 ### Generate GO protoc files
 
 `make gen`
+
+### Run Server
+
+`make rs`
