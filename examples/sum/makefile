@@ -3,3 +3,6 @@ gen:
 
 rs:
 	go run server/server.go
+
+rc:
+	go run client/client.go

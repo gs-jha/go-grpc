@@ -11,3 +11,7 @@ This is simple example like hello world to sum 2 numbers from client and check r
 ### Run Server
 
 `make rs`
+
+### Run Client
+
+`make rc`
